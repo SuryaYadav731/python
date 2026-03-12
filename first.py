@@ -241,6 +241,39 @@
 
 # largest_three(a, b, c)
 
-num = [10, 20, 30, 40]
+# num = [10, 20, 30, 40]
+# for i in num:
+#     print(i)
+
+# a = [1, 2, 8, 4]
+# # print(a[1])
+# # print(a[2:4])
+# # print(1 in a)
+# print(max(a))
+# b = 0
+# for i in a:
+#     b = b + i
+
+# print(b)
+
+# a = [20, 30, 40, 60]
+# print(max(a))
+# print(min(a))
+b = 0
+# for i in a:
+#     b = b + i
+# print(b)
+
+# for i in a:
+#     b = b + i
+#     c = b
+#     d = b / 4
+# print(d)
+
+
+num = [10, 15, 20, 25, 30]
+count = 0
 for i in num:
-    print(i)
+    if i % 2 == 0:
+        count = count + 1
+print(count)
