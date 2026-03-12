@@ -223,20 +223,24 @@
 # print(c)
 
 
-def largest_three(a, b, c):
+# def largest_three(a, b, c):
 
-    if a > b and a > c:
-        print("A is greatest")
+#     if a > b and a > c:
+#         print("A is greatest")
 
-    elif b > a and b > c:
-        print("B is greatest")
+#     elif b > a and b > c:
+#         print("B is greatest")
 
-    else:
-        print("C is greatest")
+#     else:
+#         print("C is greatest")
 
 
-a = int(input("Enter a num:-"))
-b = int(input("Enter b num:-"))
-c = int(input("Enter c num:-"))
+# a = int(input("Enter a num:-"))
+# b = int(input("Enter b num:-"))
+# c = int(input("Enter c num:-"))
 
-largest_three(a, b, c)
+# largest_three(a, b, c)
+
+num = [10, 20, 30, 40]
+for i in num:
+    print(i)
