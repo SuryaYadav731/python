@@ -49,6 +49,15 @@
 # else:
 #     print("Odd Number")
 
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+
+# # Example usage
+# print(factorial(5))  # Output: 120
+
 
 # num = int(input("Enter a num:-"))
 
@@ -271,9 +280,24 @@ b = 0
 # print(d)
 
 
-num = [10, 15, 20, 25, 30]
-count = 0
-for i in num:
-    if i % 2 == 0:
-        count = count + 1
-print(count)
+# num = [10, 15, 20, 25, 30]
+# count = 0
+# for i in num:
+#     if i % 2 == 0:
+#         count = count + 1
+# print(count)
+# function to calculate factorial
+
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+merged = []
+
+for i in list1:
+    merged.append(i)
+
+for j in list2:
+    merged.append(j)
+
+print(merged)
