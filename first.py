@@ -289,15 +289,81 @@ b = 0
 # function to calculate factorial
 
 
-list1 = [1, 2, 3]
-list2 = [4, 5, 6]
+# list1 = [1, 2, 3]
+# list2 = [4, 5, 6]
 
-merged = []
+# merged = []
 
-for i in list1:
-    merged.append(i)
+# for i in list1:
+#     merged.append(i)
 
-for j in list2:
-    merged.append(j)
+# for j in list2:
+#     merged.append(j)
 
-print(merged)
+# print(merged)
+
+
+# t = (1, 2, 3, 4, 5)
+# print(t[2])
+# t = (10, 20, 30)
+
+# for i in t:
+#     print(i)
+
+# t = ("Surya", 23, "Python", True)
+
+# print(t)
+
+
+# t = (10, 20, 30, 40, 50)
+# d = list(t)
+# d.append(60)
+# print(d)
+
+
+# t = [1, 2, 3, 4, 5]
+# d = tuple(t)
+# print(d)
+
+# dict1 = {"name": "Surya", "age": 23, "city": "Delhi"}
+# print(dict1["name"])
+# print(dict1["age"])
+# print(dict1["city"])
+# print(dict1)
+# student = {"name": "Surya", "age": 23}
+
+# student["course"] = "Python"
+
+# print(student)
+
+
+# marks = {"Math": 90, "Science": 85, "English": 95}
+# total = 0
+# for subject, mark in marks.items():
+#     total += mark
+# print("Total Marks:", total)
+
+
+# subj = {"Math ": 90, "Science": 85, "English": 95}
+# print(subj.keys())
+# total = 0
+# for i in subj.values():
+#     total = total + i
+
+# print("Total Marks:-", total)
+
+
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def display(self):
+#         print("Name:", self.name)
+#         print("Age:", self.age)
+
+
+# s1 = Student("Surya", 23)
+# s1.display()
+
+print("Hello World  ! Welcome to Python programming.")
